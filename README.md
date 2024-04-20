@@ -44,7 +44,7 @@ This is Diego Rivera Acosta's portfolio website showcasing his projects, skills,
 
 - Display projects with details fetched from the backend.
 - Responsive design.
-- Integration with various APIs and databases.
+- Integration with APIs and databases. (Component ProjectsAPI)
 
 ## Future Improvements
 

@@ -1,7 +1,3 @@
-Great! Now, let's create a README.md file that summarizes your project and provides instructions for setting it up and running it.
-
----
-
 # Diego Rivera Acosta's Portfolio
 
 This is Diego Rivera Acosta's portfolio website showcasing his projects, skills, and background. The project is split into a backend built with Node.js and MongoDB and a frontend built with React.
@@ -55,7 +51,3 @@ This is Diego Rivera Acosta's portfolio website showcasing his projects, skills,
 - Add user authentication.
 - Implement a contact form.
 - Include a blog section.
-
----
-
-Feel free to modify and expand this README.md to better suit your project and provide more detailed instructions or explanations!

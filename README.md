@@ -11,13 +11,13 @@ This is Diego Rivera Acosta's portfolio website showcasing his projects, skills,
 
 ### Setup
 1. Install Node.js and MongoDB on your machine.
-2. Clone the repository.
+2. Clone the repository: https://github.com/diegoarivera35/PortfolioBackend
 3. Navigate to the project directory in your terminal.
 4. Run `npm install` to install the required packages.
 5. Create a `.env` file in the root directory and add the following:
    ```
-   MONGO_USERNAME=porfoliouser
-   MONGO_PASSWORD=59FmzjUZ5BnFKuCy
+   MONGO_USERNAME=****************
+   MONGO_PASSWORD=****************
    ```
 6. Run `npm run dev` to start the server in development mode.
 

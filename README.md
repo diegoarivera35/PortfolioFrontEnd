@@ -51,3 +51,7 @@ This is Diego Rivera Acosta's portfolio website showcasing his projects, skills,
 - Add user authentication.
 - Implement a contact form.
 - Include a blog section.
+
+## Screenshot
+
+![MyPortfolio](screenshot.png)

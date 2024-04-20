@@ -1,8 +1,61 @@
-# React + Vite
+Great! Now, let's create a README.md file that summarizes your project and provides instructions for setting it up and running it.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+# Diego Rivera Acosta's Portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is Diego Rivera Acosta's portfolio website showcasing his projects, skills, and background. The project is split into a backend built with Node.js and MongoDB and a frontend built with React.
+
+## Backend
+
+### Technologies Used
+- Node.js
+- MongoDB
+- Express.js
+
+### Setup
+1. Install Node.js and MongoDB on your machine.
+2. Clone the repository.
+3. Navigate to the project directory in your terminal.
+4. Run `npm install` to install the required packages.
+5. Create a `.env` file in the root directory and add the following:
+   ```
+   MONGO_USERNAME=porfoliouser
+   MONGO_PASSWORD=59FmzjUZ5BnFKuCy
+   ```
+6. Run `npm run dev` to start the server in development mode.
+
+### API Endpoints
+- `GET /projects`: Fetch all projects.
+
+## Frontend
+
+### Technologies Used
+- React
+- Axios for API calls
+- TailwindCSS for styling
+
+### Setup
+1. Navigate to the `frontend` directory in your terminal.
+2. Run `npm install` to install the required packages.
+3. Create a `.env` file in the root directory and add the following:
+   ```
+   REACT_APP_API_URL=http://localhost:8889
+   ```
+4. Run `npm run dev` to start the development server.
+
+## Features
+
+- Display projects with details fetched from the backend.
+- Responsive design.
+- Integration with various APIs and databases.
+
+## Future Improvements
+
+- Add user authentication.
+- Implement a contact form.
+- Include a blog section.
+
+---
+
+Feel free to modify and expand this README.md to better suit your project and provide more detailed instructions or explanations!

@@ -1,9 +1,7 @@
-<svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="90" height="90" fill="url(#pattern0)"/>
-<defs>
-<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_18_690" transform="scale(0.0111111)"/>
-</pattern>
-<image id="image0_18_690" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAACgElEQVR4nO2cQW4UMRBF3yVYABPEdZAgIBTgDMBkOAs7EIgFS/YJXIKEHUGcIpmsMhM1asksY9yM22W7/pO8G7m6S57qtvupQAghquUecAh8A86AS2D4x9gAp8BBwvzPw283CfNehmsYr2UJ7NEBd4H3wDYhAbHxLBLjxY5zXwNfgPs0yhNgvWMShjBOInF+ZIpxAezTGG/CShkyjatIrKuMccZrXtHQSs6Z5CGMm8gd57qFlb3IWC4Go0T/LSN3qJhPM934EIk5V7wPVPwKt+0o0dvwD62O1Yw3PUTizhnzNRXytcNEH1EhvztM9BkVsu4w0WsqpMdEn1MhvzpM9E8qRA/DQiw7XNEvqZC9zjYsm1o3LCMfO0r0Oyo/6L/oINHnwG0q58FMJeQm5jgmfUQjrBo++D+kMfYzlpGTSJzTjOXiIY1yC3ib+HU6NmJfwh9nWMWfW6jJKSzCkeNx2G2lbNfHkvAdeJow/0FY9SllZB2uYTyZe1XzK5wQQgghhF+bdEpc2aT8n026q8Uqm5S0LXgui1U2KfFDpZwWq2xS0lZyjhND2aQFLVbZpAUtVtmkhSxW2aQFLVbZpIXEHdmkhSxW2aSF5ErZpIUSLZu0kMUqm9Tzw9DKJl3OGFM2aQGLVTZpIYtVNmkBi1U2aQGLVTZpAYtVNinzW6yySZn+JXyKxSqblHSbdIrFKptUCCGEEKJZm9QNJXqTuqdUb1LXlOxN6pbSvUldYtGb1CUWvUndYdWb1B1WvUndYdWOzR1WvUndYdUy0x3urE4r3FmdVrizOq1wZ3Va4dLqtMKd1WmFS6vTCpdWpxUurU4rXFqdVri1Oq1YyOoUQgim8gcPJokmNrLA6gAAAABJRU5ErkJggg=="/>
-</defs>
+<svg width="128" height="129" viewBox="0 0 128 129" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M45.5 129C57.4 129 67 119.4 67 107.5V86H45.5C33.6 86 24 95.6 24 107.5C24 119.4 33.6 129 45.5 129Z" fill="#0ACF83"/>
+<path d="M24 64.5C24 52.6 33.6 43 45.5 43H67V86H45.5C33.6 86 24 76.4 24 64.5Z" fill="#A259FF"/>
+<path d="M24 21.5C24 9.6 33.6 0 45.5 0H67V43H45.5C33.6 43 24 33.4 24 21.5Z" fill="#F24E1E"/>
+<path d="M67 0H88.5C100.4 0 110 9.6 110 21.5C110 33.4 100.4 43 88.5 43H67V0Z" fill="#FF7262"/>
+<path d="M110 64.5C110 76.4 100.4 86 88.5 86C76.6 86 67 76.4 67 64.5C67 52.6 76.6 43 88.5 43C100.4 43 110 52.6 110 64.5Z" fill="#1ABCFE"/>
 </svg>

@@ -1,11 +1,29 @@
-import photo from '../assets/photo_diego.png';
-
+import photo from '../assets/photoDiegoPixelated.png';
+import "../styles/App.css";
 const Header = () => {
 
     return (
       <div className="centrar" id="about">
     <img className="card-img" src={photo} alt="Card image cap" />
-    <h2>About Me</h2>
+
+
+    <div className="centrar">
+  <h2 className="htmlTitle">
+    <span className="izquierdo">&lt;</span>
+    <span className="h2">h2</span>
+    <span className="derecho">&gt;</span>
+    About Me
+    <span className="izquierdo">&lt;&frasl;</span>
+    <span className="h2">h2</span>
+    <span className="derecho">&gt;</span>
+  </h2>
+</div>
+
+
+
+
+
+
 <p>Web Designer with 8+ years of experience, combining strong design skills with advanced knowledge in UX/UI and digital marketing. Graduated from Los Andes University, currently pursuing Web Development at Humber College, Toronto. Experienced in leading web projects, content management, and optimizing websites for SEO. Bilingual in Spanish and English.</p>
 </div>
   );

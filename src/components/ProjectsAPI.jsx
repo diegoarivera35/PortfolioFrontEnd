@@ -7,7 +7,8 @@ function ProjectsAPI() {
 
   useEffect(() => {
     // Fetch data from your API
-    axios.get('http://localhost:8889/projects')
+    // axios.get('http://localhost:8889/projects')
+    axios.get('http://52.15.177.168:8889/projects')
       .then(response => {
         setProjects(response.data);
       })

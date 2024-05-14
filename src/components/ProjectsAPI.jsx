@@ -59,7 +59,7 @@ function ProjectsAPI() {
           </div>
 
 
-          <img className="card-img" src={`http://phpdatabase.great-site.net/images/${project.imageURL}`} alt="Card image cap" />
+          <img className="card-img" src={`https://images-portfolio-diego-rivera.s3.us-east-2.amazonaws.com/${project.imageURL}`} alt="Card image cap" />
           <div className="card-body">
             
             <p className="card-text">{project.description}</p>

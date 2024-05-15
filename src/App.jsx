@@ -259,10 +259,10 @@ function App() {
   </h1>
 </div>
 
-<p className="portfolio1">/* This portfolio showcases some of my skills as a Web Developer and UX/UI Designer. You will find projects utilizing JavaScript, the DOM, PHP, APIs, and designs created in Figma, among other tools.*/</p>
+<p className="portfolio1">This portfolio showcases some of my skills as a Web Developer and UX/UI Designer. You will find projects utilizing JavaScript, the DOM, PHP, APIs, and designs created in Figma, among other tools.</p>
 
 <p className="portfolio2">
- /*This portfolio website itself is a demonstration of my abilities, featuring a front-end built with React and a back-end developed with Node.js and Express.js. The projects are stored in a MongoDB database and are rendered on the front end using a REST API. Finally, the portfolio is deployed using AWS Cloud services.*/</p>
+ This portfolio website itself is a demonstration of my abilities, featuring a front-end built with React and a back-end developed with Node.js and Express.js. The projects are stored in a MongoDB database and are rendered on the front end using a REST API. Finally, the portfolio is deployed using AWS Cloud services.</p>
 
 
       <div className="Hero">

@@ -1,3 +1,5 @@
+
+import { useEffect } from "react";
 import "./styles/App.css";
 import "./index.css";
 import SplineScene from "./components/SplineScene";
@@ -11,6 +13,21 @@ import Contact from "./components/Contact";
 import ProjectsAPI from "./components/ProjectsAPI";
 
 function App() {
+  useEffect(() => {
+    // Function to display alert with portfolio content when the page loads
+    const displayPortfolioAlert = () => {
+      const portfolioContent = document.querySelector(".portfolio").textContent;
+      alert(portfolioContent);
+    };
+
+    // Call the function when the page finishes loading
+    window.addEventListener("load", displayPortfolioAlert);
+
+    // Clean up the event listener when component unmounts
+    return () => {
+      window.removeEventListener("load", displayPortfolioAlert);
+    };
+  }, []);
   return (
     <div className="padre">
       <Header />

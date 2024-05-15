@@ -13,7 +13,6 @@ import Contact from "./components/Contact";
 import ProjectsAPI from "./components/ProjectsAPI";
 
 function App() {
-  useEffect(() => {
     useEffect(() => {
       // Function to display alert with portfolio1 content when the page loads
       const displayFirstPortfolioAlert = () => {

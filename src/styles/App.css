@@ -1030,4 +1030,10 @@ footer .copyright p{
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  gap: 50px;
+}
+
+.aboutmetext {
+  display: flex;
+  flex-direction: column;
 }

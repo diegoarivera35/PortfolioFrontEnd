@@ -791,10 +791,15 @@ footer .copyright p{
 }
 
 .biography {
-  
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.biography p {
+  text-align: center;
 }
 
 /*------------scroll bar skills mobile--------------*/
@@ -920,6 +925,16 @@ footer .copyright p{
 @media screen and (min-width: 481px) {
 
 
+  .biography {
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+  }
+
+
   .language-mobile {
     display: none;
   }
@@ -1031,14 +1046,7 @@ footer .copyright p{
   margin: 0 auto 50px auto;
 }
 
-.biography {
-  
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 50px;
-}
+
 
 .aboutmetext {
   display: flex;

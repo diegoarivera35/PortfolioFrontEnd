@@ -17,7 +17,7 @@ const Header = () => {
 
 <div className='aboutmetext'>
 
-    <div className="centrar">
+    <div className="">
   <h2 className="htmlTitle">
     <span className="izquierdo">&lt;</span>
     <span className="h2">h2</span>

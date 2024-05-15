@@ -6,6 +6,7 @@ import SplineScene from "./components/SplineScene";
 import Header from "./components/Header";
 import Skills from "./components/Skills";
 import About from "./components/About";
+import Studies from "./components/Studies";
 // import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
@@ -284,7 +285,7 @@ function App() {
 
       {/* <Projects/> */}
       <ProjectsAPI />
-
+      <Studies />
       <Contact />
       <Footer />
     </div>

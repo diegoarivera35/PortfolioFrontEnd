@@ -1,7 +1,7 @@
 
 import "../styles/App.css";
 const Studies = () => {
-
+    return (
 
 <div className="centrar" id="studies">
 
@@ -55,6 +55,7 @@ const Studies = () => {
 
 
     </div>
+    );
 };
 
 export default Studies;

@@ -411,6 +411,7 @@ main h2 {
   max-width: 1000px;
   gap: 40px;
   flex: 1;
+  height: 100vh;
 }
 
 #about h2 {

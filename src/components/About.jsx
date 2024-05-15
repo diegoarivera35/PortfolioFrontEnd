@@ -6,6 +6,17 @@ const Header = () => {
       <div className="centrar" id="about">
 
 
+
+
+<div className='biography'>
+
+    <img className="card-img" src={photo} alt="Card image cap" />
+
+
+
+
+<div className='aboutmetext'>
+
     <div className="centrar">
   <h2 className="htmlTitle">
     <span className="izquierdo">&lt;</span>
@@ -18,14 +29,14 @@ const Header = () => {
   </h2>
 </div>
 
-<div className='biography'>
-
-    <img className="card-img" src={photo} alt="Card image cap" />
-
-
-
 
 <p>Web Designer with 8+ years of experience, combining strong design skills with advanced knowledge in UX/UI and digital marketing. Graduated from Los Andes University, currently pursuing Web Development at Humber College, Toronto. Experienced in leading web projects, content management, and optimizing websites for SEO. Bilingual in Spanish and English.</p>
+
+</div>
+
+
+
+
 </div>
 </div>
   );

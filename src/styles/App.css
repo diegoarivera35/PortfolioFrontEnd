@@ -790,6 +790,13 @@ footer .copyright p{
     overflow-x: auto;
 }
 
+.biography {
+  
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 /*------------scroll bar skills mobile--------------*/
 
 #skills::-webkit-scrollbar {

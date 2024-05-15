@@ -1016,7 +1016,8 @@ footer .copyright p{
 }
 
 
-.portfolio {
+.portfolio1, .portfolio2 {
+  display: none;
   color: #889CB3;
   font-weight:lighter;
   max-width: 80%;
@@ -1024,6 +1025,7 @@ footer .copyright p{
 }
 
 .biography {
+  
   display: flex;
   flex-direction: row;
   justify-content: space-between;

@@ -14,20 +14,30 @@ import ProjectsAPI from "./components/ProjectsAPI";
 
 function App() {
   useEffect(() => {
-    // Function to display alert with portfolio content when the page loads
-    const displayPortfolioAlert = () => {
-      const portfolioContent = document.querySelector(".portfolio").textContent;
-      alert(portfolioContent);
-    };
-
-    // Call the function when the page finishes loading
-    window.addEventListener("load", displayPortfolioAlert);
-
-    // Clean up the event listener when component unmounts
-    return () => {
-      window.removeEventListener("load", displayPortfolioAlert);
-    };
-  }, []);
+    useEffect(() => {
+      // Function to display alert with portfolio1 content when the page loads
+      const displayFirstPortfolioAlert = () => {
+        const portfolioContent1 = document.querySelector(".portfolio1").textContent;
+        alert(portfolioContent1);
+  
+        // After the first alert is closed, display the second alert
+        displaySecondPortfolioAlert();
+      };
+  
+      // Function to display alert with portfolio2 content
+      const displaySecondPortfolioAlert = () => {
+        const portfolioContent2 = document.querySelector(".portfolio2").textContent;
+        alert(portfolioContent2);
+      };
+  
+      // Call the function to display the first alert when the page finishes loading
+      window.addEventListener("load", displayFirstPortfolioAlert);
+  
+      // Clean up the event listener when component unmounts
+      return () => {
+        window.removeEventListener("load", displayFirstPortfolioAlert);
+      };
+    }, []);
   return (
     <div className="padre">
       <Header />
@@ -250,7 +260,10 @@ function App() {
   </h1>
 </div>
 
-<p className="portfolio">/* This portfolio showcases some of my skills as a Web Developer and UX/UI Designer. You will find projects utilizing JavaScript, the DOM, PHP, APIs, and designs created in Figma, among other tools. This portfolio website itself is a demonstration of my abilities, featuring a front-end built with React and a back-end developed with Node.js and Express.js. The projects are stored in a MongoDB database and are rendered on the front end using a REST API. Finally, the portfolio is deployed using AWS Cloud services.*/</p>
+<p className="portfolio1">/* This portfolio showcases some of my skills as a Web Developer and UX/UI Designer. You will find projects utilizing JavaScript, the DOM, PHP, APIs, and designs created in Figma, among other tools.*/</p>
+
+<p className="portfolio2">
+ /*This portfolio website itself is a demonstration of my abilities, featuring a front-end built with React and a back-end developed with Node.js and Express.js. The projects are stored in a MongoDB database and are rendered on the front end using a REST API. Finally, the portfolio is deployed using AWS Cloud services.*/</p>
 
 
       <div className="Hero">

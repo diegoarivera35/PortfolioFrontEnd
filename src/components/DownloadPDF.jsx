@@ -10,8 +10,8 @@ function DownloadPDF() {
       <h4>Download My Resume:</h4>
       <div className="resumeBtnContainer">
 
-      <a href={pdfUrlEN} download="Diego_Rivera_Resume_English.pdf" className="download-link"><FaFileDownload/>Resume (english)</a>
-      <a href={pdfUrlFR} download="Diego_Rivera_Resume_French.pdf" className="download-link"><FaFileDownload/>Resume (french)</a>      
+      <a href={pdfUrlEN} target="_blank" download="Diego_Rivera_Resume_English.pdf" className="download-link"><FaFileDownload/> Resume (english)</a>
+      <a href={pdfUrlFR} target="_blank" download="Diego_Rivera_Resume_French.pdf" className="download-link"><FaFileDownload/> Resume (french)</a>      
       </div>
         
 

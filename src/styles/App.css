@@ -406,8 +406,7 @@ main h2 {
 
 #about {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
   max-width: 1000px;
   gap: 40px;
   flex: 1;
@@ -749,6 +748,14 @@ footer .copyright p{
   .burger, .toggle-menu {
     display: block;
   }
+
+  .resumeBtnContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: fit-content;
+  }
+
   .menu {
     justify-content: start;
     flex-direction: column;
@@ -1159,14 +1166,15 @@ th {
 
 .resumeBtnContainer {
   display: flex;
-  flex-direction: column;
   gap: 15px;
+  width: fit-content;
 }
 
 .resumeBtnContainer a{
   display: flex;
   align-items: center;
   gap: 5px;
+  
 }
 
 

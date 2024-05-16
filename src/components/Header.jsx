@@ -3,6 +3,7 @@ import { FaInfoCircle } from "react-icons/fa";
 import { IoIosHammer } from "react-icons/io";
 import { FaGitAlt } from "react-icons/fa6";
 import { FaMessage } from "react-icons/fa6";
+import { FaBookOpen } from "react-icons/fa";
 import { useState } from 'react';
 
 const Header = () => {
@@ -39,6 +40,13 @@ const Header = () => {
       <li   className="nav-item">
         <a   className="nav-link" href="#anchor_projects"><FaGitAlt   className='iconMenu'/> Projects</a>
       </li>
+
+
+      <li   className="nav-item">
+        <a   className="nav-link" href="#anchor_studies"><FaBookOpen   className='iconMenu'/> Studies</a>
+      </li>
+
+
 
       <li   className="nav-item">
         <a   className="nav-link" href="#anchor_contact"><FaMessage   className='iconMenu'/> Contact Me</a>

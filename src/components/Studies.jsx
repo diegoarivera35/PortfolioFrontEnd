@@ -3,7 +3,7 @@ import "../styles/App.css";
 const Studies = () => {
     return (
 
-<div className="centrar" id="studies">
+<div className="centrar" id="anchor_studies">
 
 
 
@@ -24,7 +24,7 @@ const Studies = () => {
 
 
     <div className="education-container">
-      <table>
+    <table>
         <thead>
           <tr>
             <th>Program</th>
@@ -35,17 +35,31 @@ const Studies = () => {
         </thead>
         <tbody>
           <tr>
-            <td>Web Development</td>
-            <td>2023 - In Progress</td>
-            <td>Humber College</td>
-            <td>Toronto, Canada</td>
+            <td data-label="Program">Web Development</td>
+            <td data-label="Year">2023 - In Progress</td>
+            <td data-label="Institution">Humber College</td>
+            <td data-label="Location">Toronto, Canada</td>
           </tr>
           <tr>
-            <td>Marketing Diploma</td>
-            <td>2019</td>
-            <td>Partners Academy</td>
-            <td>Bogotá, Colombia</td>
+            <td data-label="Program">Marketing Diploma</td>
+            <td data-label="Year">2019</td>
+            <td data-label="Institution">Partners Academy</td>
+            <td data-label="Location">Bogotá, Colombia</td>
           </tr>
+
+          <tr>
+            <td data-label="Program">English</td>
+            <td data-label="Year">2011 - 2012</td>
+            <td data-label="Institution">London Meridian College LLP</td>
+            <td data-label="Location">London, UK</td>
+          </tr>
+
+          <tr>
+            <td data-label="Program">Industrial Design</td>
+            <td data-label="Year">2004 - 2009</td>
+            <td data-label="Institution">Los Andes University</td>
+            <td data-label="Location">Bogotá, Colombia</td>
+          </tr>                    
         </tbody>
       </table>
     </div>

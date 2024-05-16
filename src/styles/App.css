@@ -1060,7 +1060,7 @@ footer .copyright p{
 /*-------studies table-------------------------*/
 
 
-#anchor_studies {
+#anchor_education {
   min-height: 100vh;
 }
 
@@ -1130,3 +1130,36 @@ th {
 }
 
 /*------------end studies table-------------------*/
+
+
+
+/*------------download resuments buttons----------------------*/
+
+.download-container {
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.download-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.download-link:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+/*------------End download resuments buttons----------------------*/

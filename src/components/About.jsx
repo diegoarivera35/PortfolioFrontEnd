@@ -1,4 +1,5 @@
 import photo from '../assets/photoDiegoPixelated.png';
+import DownloadPDF from "./components/DownloadPDF";
 import "../styles/App.css";
 const Header = () => {
 
@@ -31,6 +32,8 @@ const Header = () => {
 
 
 <p>Web Designer with 8+ years of experience, combining strong design skills with advanced knowledge in UX/UI and digital marketing. Graduated from Los Andes University, currently pursuing Web Development at Humber College, Toronto. Experienced in leading web projects, content management, and optimizing websites for SEO. Bilingual in Spanish and English.</p>
+
+<DownloadPDF/>
 
 </div>
 

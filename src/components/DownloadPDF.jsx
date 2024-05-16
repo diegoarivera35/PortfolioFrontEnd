@@ -7,9 +7,12 @@ function DownloadPDF() {
 
   return (
     <div className="download-container">
-      <h4>Download My Resume</h4>
+      <h4>Download My Resume:</h4>
+      <div className="resumeBtnContainer">
+
       <a href={pdfUrlEN} download="Diego_Rivera_Resume_English.pdf" className="download-link"><FaFileDownload/>Resume (english)</a>
       <a href={pdfUrlFR} download="Diego_Rivera_Resume_French.pdf" className="download-link"><FaFileDownload/>Resume (french)</a>      
+      </div>
         
 
     </div>

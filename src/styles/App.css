@@ -1069,12 +1069,11 @@ footer .copyright p{
   padding: 20px;
   width: 100%;
   display: flex;
-  align-content:center;
   justify-content: center;
 }
 
 table {
-  width: 100%;
+  
   border-collapse: collapse;
   overflow-x: auto;
   display: block;
@@ -1093,6 +1092,10 @@ th {
 @media screen and (max-width: 600px) {
   table, thead, tbody, th, td, tr {
     display: block;
+  }
+
+  table {
+    width: 100%;
   }
 
   thead tr {
@@ -1140,23 +1143,24 @@ th {
   margin-top: 50px;
 }
 
-h1 {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
 
 .download-link {
   display: inline-block;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-size: 18px;
+  padding: 5px 10px;
+  background-color: #0078D4;
+  color: #fff;
+  font-size: 14px;
+  font-family: sans-serif;
 }
 
 .download-link:hover {
   background-color: #0056b3;
+}
+
+.resumeBtnContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 

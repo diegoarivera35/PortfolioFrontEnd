@@ -18,6 +18,7 @@ const Footer = () => {
       <li className="footer_link"><a href="#">About me</a></li>
       <li className="footer_link"><a href="#anchor_skills">Skills</a></li>
       <li className="footer_link"><a href="#anchor_projects">Projects</a></li>
+      <li className="footer_link"><a href="#anchor_education">Education</a></li>
       <li className="footer_link"><a href="#anchor_contact">Contact</a></li>
     </ul>
   </div>

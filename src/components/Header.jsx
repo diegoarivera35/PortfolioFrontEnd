@@ -43,7 +43,7 @@ const Header = () => {
 
 
       <li   className="nav-item">
-        <a   className="nav-link" href="#anchor_studies"><FaBookOpen   className='iconMenu'/> Studies</a>
+        <a   className="nav-link" href="#anchor_education"><FaBookOpen   className='iconMenu'/> Education</a>
       </li>
 
 

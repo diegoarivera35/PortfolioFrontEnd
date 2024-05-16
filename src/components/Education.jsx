@@ -1,9 +1,9 @@
 
 import "../styles/App.css";
-const Studies = () => {
+const Education = () => {
     return (
 
-<div className="centrar" id="anchor_studies">
+<div className="centrar" id="anchor_education">
 
 
 
@@ -72,4 +72,4 @@ const Studies = () => {
     );
 };
 
-export default Studies;
+export default Education;

@@ -744,11 +744,15 @@ footer .copyright p{
 
 /*---------10. media quearies----------*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .burger, .toggle-menu {
     display: block;
   }
   #about h2 {
+    margin: auto;
+  }
+
+  .mitad {
     margin: auto;
   }
 
@@ -941,7 +945,7 @@ footer .copyright p{
   }
 }
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 501px) {
 
 
   .biography {

@@ -18,7 +18,7 @@ const Header = () => {
     return (
       <>
 
-<nav   className="navbar navbar-expand-lg navbar-light">
+<nav   className="navbar navbar-expand-lg navbar-light" data-bs-theme="dark">
   
 
 {/* <div   className="logo"><a href="index.html"><img src={logo} alt="logo"/></a></div> */}

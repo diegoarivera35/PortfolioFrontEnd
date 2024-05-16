@@ -254,6 +254,14 @@ nav ul li {
   margin-bottom: -1px;
 }
 
+.navbar-brand {
+  border-left: 1px solid #2B2B2B;
+  border-right: 1px solid #2B2B2B;
+  border-top: 1px solid #2B2B2B;
+  border-bottom: 1px solid #2B2B2B;
+  margin-bottom: -1px;
+}
+
 nav ul li a{
   text-decoration: none;
   color: #CCCCCC !important;

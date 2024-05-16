@@ -22,7 +22,7 @@ const Header = () => {
   
 
 {/* <div   className="logo"><a href="index.html"><img src={logo} alt="logo"/></a></div> */}
-
+<a className="navbar-brand" href="#">diegoarivera35.com</a>
   <button   className="navbar-toggler" type="button" onClick={toggleNavbar}>
     <span   className="navbar-toggler-icon"></span>
   </button>

@@ -1,5 +1,5 @@
 import photo from '../assets/photoDiegoPixelated.png';
-import DownloadPDF from "./components/DownloadPDF";
+import DownloadPDF from "./DownloadPDF";
 import "../styles/App.css";
 const Header = () => {
 

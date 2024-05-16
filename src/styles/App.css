@@ -260,6 +260,10 @@ nav ul li {
   border-top: 1px solid #2B2B2B;
   border-bottom: 1px solid #2B2B2B;
   margin-bottom: -1px;
+  margin-right: 0;
+  padding-right: 1.5rem;
+  padding-left: 1rem;
+  margin-left: -20px;
 }
 
 nav ul li a{
@@ -995,6 +999,34 @@ footer .copyright p{
   #projects .card {
     max-width: 20rem;
   }
+
+}
+
+
+@media screen and (max-width: 991px) {
+
+  .navbar-brand {
+    margin-bottom: 0;
+    margin-right: 0;
+    padding-right: 1.5rem;
+    padding-left: 1rem;
+    margin-left: -10px;
+    border: 0;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+nav ul li {
+  list-style: none;
+  border-left: 0;
+  border-right: 0;
+  border-top: 1px solid #2B2B2B;
+  border-bottom: 0;
+  margin-bottom: -1px;
+}
+
 
 }
 

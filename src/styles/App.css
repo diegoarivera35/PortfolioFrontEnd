@@ -422,7 +422,8 @@ main h2 {
   max-width: 1000px;
   gap: 40px;
   flex: 1;
-  height: 100vh;
+  height: 100%;
+  min-height: 70vh;
 }
 
 #about h2 {
@@ -1237,3 +1238,22 @@ th {
 
 
 /*------------End download resuments buttons----------------------*/
+
+#more {
+    
+    max-height: 0px;
+    overflow-y: hidden;
+    transition: max-height 2s ease-in-out;
+    width: 100%;
+
+}
+
+#moreBtn {
+  background-color: rgb(24, 24, 24);
+  padding: 6px 10px 6px 15px;
+  color: white;
+  border: none;
+  width: 170px;
+  align-self: flex-end;
+
+}

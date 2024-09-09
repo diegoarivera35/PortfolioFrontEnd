@@ -36,7 +36,7 @@ const Education = () => {
         <tbody>
           <tr>
             <td data-label="Program">Web Development</td>
-            <td data-label="Year">2023 - In Progress</td>
+            <td data-label="Year">2024</td>
             <td data-label="Institution">Humber College</td>
             <td data-label="Location">Toronto, Canada</td>
           </tr>

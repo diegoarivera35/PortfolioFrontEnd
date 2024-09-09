@@ -1,5 +1,5 @@
 
-import { useEffect } from "react";
+
 import "./styles/App.css";
 import "./index.css";
 import SplineScene from "./components/SplineScene";
@@ -14,30 +14,7 @@ import Contact from "./components/Contact";
 import ProjectsAPI from "./components/ProjectsAPI";
 
 function App() {
-    useEffect(() => {
-      // Function to display alert with portfolio1 content when the page loads
-      const displayFirstPortfolioAlert = () => {
-        const portfolioContent1 = document.querySelector(".portfolio1").textContent;
-        alert(portfolioContent1);
-  
-        // After the first alert is closed, display the second alert
-        displaySecondPortfolioAlert();
-      };
-  
-      // Function to display alert with portfolio2 content
-      const displaySecondPortfolioAlert = () => {
-        const portfolioContent2 = document.querySelector(".portfolio2").textContent;
-        alert(portfolioContent2);
-      };
-  
-      // Call the function to display the first alert when the page finishes loading
-      window.addEventListener("load", displayFirstPortfolioAlert);
-  
-      // Clean up the event listener when component unmounts
-      return () => {
-        window.removeEventListener("load", displayFirstPortfolioAlert);
-      };
-    }, []);
+
   return (
     <div className="padre">
       <Header />
@@ -243,6 +220,37 @@ function App() {
  198  <br/>
  199  <br/>
  200  <br/>
+ 201  <br/>
+ 202  <br/>
+ 203  <br/>
+ 204  <br/>
+ 205  <br/>
+ 206  <br/>
+ 207  <br/>
+ 208  <br/>
+ 209  <br/>
+ 210  <br/>
+ 211  <br/>
+ 212  <br/>
+ 213  <br/>
+ 214  <br/>
+ 215  <br/>
+ 216  <br/>
+ 217  <br/>
+ 218  <br/>
+ 219  <br/>
+ 220  <br/>
+ 221  <br/>
+ 222  <br/>
+ 223  <br/>
+ 224  <br/>
+ 225  <br/>
+ 226  <br/>
+ 227  <br/>
+ 228  <br/>
+ 229  <br/>
+ 230  <br/>
+
 
 </div>
 
@@ -260,10 +268,10 @@ function App() {
   </h1>
 </div>
 
-<p className="portfolio1">This portfolio showcases some of my skills as a Web Developer and UX/UI Designer. You will find projects utilizing JavaScript, the DOM, PHP, APIs, and designs created in Figma, among other tools.</p>
+{/* <p className="portfolio1">This portfolio showcases some of my skills as a Web Developer and UX/UI Designer. You will find projects utilizing JavaScript, the DOM, PHP, APIs, and designs created in Figma, among other tools.</p>
 
 <p className="portfolio2">
- This portfolio website itself is a demonstration of my abilities, featuring a front-end built with React and a back-end developed with Node.js and Express.js. The projects are stored in a MongoDB database and are rendered on the front end using a REST API. Finally, the portfolio is deployed using AWS Cloud services.</p>
+ This portfolio website itself is a demonstration of my abilities, featuring a front-end built with React and a back-end developed with Node.js and Express.js. The projects are stored in a MongoDB database and are rendered on the front end using a REST API. Finally, the portfolio is deployed using AWS Cloud services.</p> */}
 
 
       <div className="Hero">

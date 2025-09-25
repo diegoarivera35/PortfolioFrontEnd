@@ -7,8 +7,8 @@ function ProjectsAPI() {
 
   useEffect(() => {
     // Fetch data from your API
-    // axios.get('http://localhost:8889/projects')
-    axios.get('https://backend.darawebdev.com/')
+    axios.get('http://localhost:8889')
+    // axios.get('https://backend.darawebdev.com/')
       .then(response => {
         setProjects(response.data);
       })

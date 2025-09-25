@@ -7,11 +7,12 @@ import Header from "./components/Header";
 import Skills from "./components/Skills";
 import About from "./components/About";
 import Education from "./components/Education";
-// import Projects from "./components/Projects";
+import Certifications from "./components/Certifications.jsx";
+import Projects from "./components/Projects";
+// import ProjectsAPI from "./components/ProjectsAPI";
 import Footer from "./components/Footer";
 
 import Contact from "./components/Contact";
-import ProjectsAPI from "./components/ProjectsAPI";
 
 function App() {
 
@@ -292,8 +293,9 @@ function App() {
       </div>
 
       {/* <Projects/> */}
-      <ProjectsAPI />
+      <Projects />
       <Education />
+      <Certifications />
       <Contact />
       <Footer />
     </div>

@@ -15,6 +15,7 @@ import Laravel from '../assets/laravel.svg';
 import Photoshop from '../assets/photoshop.svg';
 import Illustrator from '../assets/illustrator.svg';
 import Figma from '../assets/figma.svg';
+import Python from '../assets/python.svg';
 
 
 const Skills = () => {
@@ -73,7 +74,10 @@ const Skills = () => {
         </div>
         <div className="skills_item">
           <img src={React} alt="React" /> React
-        </div>                
+        </div>     
+        <div className="skills_item">
+          <img src={Python} alt="Python" /> Python
+        </div>         
         <div className="skills_item">
           <img src={CSharp} alt="CSharp" /> C#
         </div>

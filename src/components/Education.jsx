@@ -12,7 +12,7 @@ const Education = () => {
     <span className="izquierdo">&lt;</span>
     <span className="h2">h2</span>
     <span className="derecho">&gt;</span>
-    Studies
+    Education
     <span className="izquierdo">&lt;&frasl;</span>
     <span className="h2">h2</span>
     <span className="derecho">&gt;</span>
@@ -34,6 +34,12 @@ const Education = () => {
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td data-label="Program">Cyber Security Operations</td>
+            <td data-label="Year">2025</td>
+            <td data-label="Institution">York University</td>
+            <td data-label="Location">Toronto, Canada</td>
+          </tr>          
           <tr>
             <td data-label="Program">Web Development</td>
             <td data-label="Year">2024</td>

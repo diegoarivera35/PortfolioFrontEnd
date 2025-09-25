@@ -38,14 +38,16 @@ const Header = () => {
 </div>
 
 
-<p>Web Developer with 8+ years of experience, combining strong design skills with advanced knowledge in UX/UI and digital marketing. Graduated from Los Andes University, currently pursuing Web Development at Humber College, Toronto. Experienced in leading web projects, content management, and optimizing websites for SEO. Bilingual in Spanish and English.<span id="dots">{!isExpanded && "..."}</span></p>
+<p>I am a Web Developer and Cybersecurity Professional, skilled in building secure full-stack applications and bridging the gap between development and security. With postgraduate studies in Web Development (Humber College) and Cyber Security Operations (York University), I bring a mix of technical expertise and creative problem-solving to every project.<span id="dots">{!isExpanded && "..."}</span></p>
 
 <div id='more' style={{ maxHeight: isExpanded ? "500px" : "0px", overflow: 'hidden', transition: 'max-height 2s ease-in-out' }}>
 
-<p>This portfolio showcases some of my skills as a Web Developer and UX/UI Designer. You will find projects utilizing JavaScript, the DOM, PHP, APIs, and designs created in Figma, among other tools.</p>
+<p>I strengthened my Canadian industry experience through an internship at Virtual POCT, a Toronto-based healthcare company, where I contributed to the implementation of FHIR standards while applying both my web development and cybersecurity expertise.</p>
 
 <p>
- This portfolio website itself is a web App, featuring a front-end built with React and a back-end developed with Node.js and Express.js. The projects database is stored in a MongoDB and are rendered on the front end using a REST API. Finally, the portfolio is deployed using AWS Cloud services.</p>
+  My technical skills include JavaScript, React, Node.js, Python, FastAPI, SQL, and MongoDB. I have experience designing and deploying full-stack applications, securing systems against vulnerabilities, and optimizing performance (my portfolio itself is hosted on Vercel).</p>
+
+<p>Bilingual in Spanish and English, and currently improving my French, I bring versatility, adaptability, and a strong security-focused mindset to support innovative and resilient digital solutions.</p>
 </div>
 
 <button onClick={myFunction} id="moreBtn">

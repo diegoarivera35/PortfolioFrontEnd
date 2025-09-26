@@ -2,8 +2,9 @@
 import { FaFileDownload } from "react-icons/fa";
 
 function DownloadPDF() {
-  const pdfUrlEN = "/resume/EN_WEBDEV_2024.pdf";
-  const pdfUrlFR = "/resume/FR_WEBDEV_2024.pdf";
+  const pdfUrlEN = "/resume/EN_CYDEV_2025.pdf";
+  const pdfUrlFR = "/resume/FR_CYDEV_2025.pdf";
+
 
   return (
     <div className="download-container">

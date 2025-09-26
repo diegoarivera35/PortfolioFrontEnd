@@ -16,7 +16,7 @@ import { FaPhp } from "react-icons/fa";
 
 const Projects = () => {
   return (
-    <div className="centrar" id='Projects'>
+    <div className="centrar" id='anchor_projects'>
       <h2>Projects</h2>
 
       <section id="projects">

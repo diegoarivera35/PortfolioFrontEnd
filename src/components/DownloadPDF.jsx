@@ -2,8 +2,8 @@
 import { FaFileDownload } from "react-icons/fa";
 
 function DownloadPDF() {
-  const pdfUrlEN = "https://images-portfolio-diego-rivera.s3.us-east-2.amazonaws.com/curriculumVitae/EN_WEBDEV_2024.pdf"; 
-  const pdfUrlFR = "https://images-portfolio-diego-rivera.s3.us-east-2.amazonaws.com/curriculumVitae/FR_WEBDEV_2024.pdf"; 
+  const pdfUrlEN = "/resume/EN_WEBDEV_2024.pdf";
+  const pdfUrlFR = "/resume/FR_WEBDEV_2024.pdf";
 
   return (
     <div className="download-container">
@@ -14,7 +14,6 @@ function DownloadPDF() {
       <a href={pdfUrlFR} target="_blank" download="Diego_Rivera_Resume_French.pdf" className="download-link"><FaFileDownload/> Resume (french)</a>      
       </div>
         
-
     </div>
   );
 }

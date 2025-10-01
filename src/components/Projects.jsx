@@ -72,7 +72,7 @@ const Projects = () => {
             <p className="card-text">
             Web app designed to help users estimate the time needed to get ready in the morning. Users can select the activities they want to perform. done using HTML, CSS, and JavaScript.
             </p>
-            <a href="http://127.0.0.1:5500/index.html?" className="buton-diego">
+            <a href="https://morning-routine-diego-rivera-a-n01582292-ipb44gx1o.vercel.app/" className="buton-diego">
             <SiJavascript /> Visit Project
             </a>
           </div>

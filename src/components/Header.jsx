@@ -25,7 +25,7 @@ const Header = () => {
 <a className="navbar-brand" href="#">diegoarivera.com</a>
   <button   className="navbar-toggler" type="button" onClick={toggleNavbar}>
     <span   className="navbar-toggler-icon"></span>
-  </button>
+  </button>  
 
   <div   className={`collapse navbar-collapse ${isNavbarOpen ? 'show' : ''}`} id="navbarSupportedContent">
     <ul   className="navbar-nav mr-auto">

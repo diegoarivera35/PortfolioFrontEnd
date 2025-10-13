@@ -82,11 +82,11 @@ const Projects = () => {
         <div className="card">
           <img className="card-img" src={pro5} alt="Card image cap" />
           <div className="card-body">
-            <h3 className="card-title">CSS/JSS Vending Machine</h3>
+            <h3 className="card-title">CSS/JSS Claw Machine</h3>
             <p className="card-text">
-            A vending machine implemented in JavaScript using the DOM to control animations in CSS.
+            A claw machine implemented in JavaScript using the DOM to control animations in CSS.
             </p>
-            <a href="http://127.0.0.1:5502/index.html" className="buton-diego">
+            <a href="https://claw-machine-beta.vercel.app/" className="buton-diego">
             <SiJavascript /> Visit project
             </a>
           </div>

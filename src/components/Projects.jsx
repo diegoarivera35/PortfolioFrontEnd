@@ -100,7 +100,7 @@ const Projects = () => {
             <p className="card-text">
             A web app that displays national holidays from different countries around the world for a specific year, along with their respective dates. The app then searches for a brief description of each holiday on Wikipedia, implemented using Node.js.
             </p>
-            <a href="http://localhost:8000/" className="buton-diego">
+            <a href="https://holidays-api-kohl.vercel.app/holidays" className="buton-diego">
             <FaNodeJs /> Visit Project
             </a>
           </div>
